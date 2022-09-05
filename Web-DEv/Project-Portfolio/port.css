@@ -1,0 +1,15 @@
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+#welcome {
+  height: 100vw;
+}
+
+nav {
+  top: 0;
+  right: 0;
+  position: fixed;
+}

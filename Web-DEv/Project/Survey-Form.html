@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1 id='title'>freeCodeCamp Survey Form</h1>
+    <p id='description'>Thank you for taking the time to help us improve the platform</p>
+    <form id='survey-form'>
+      <label id="name-label">Enter your full name..<input id='name' type='text' placeholder='sreehari' required></label>
+      <label id="email-label">Enter your email address..<input id='email' type='email' placeholder='sreehari@freecode.com'required></label>
+      <label id="number-label">Enter your age..<input id='number' type='number' min=9 max=100 placeholder=10></label>
+      <label id='select'>Which option best describes your current role?<select id='dropdown'></label>
+        <option>select an option</option>
+        <option>student</option>
+        <option>professor</option>
+      </select>
+      <fieldset>
+        <label><input type='radio' name='value-radio' value='true' checked>true</label>
+        <label><input type='radio' name='value-radio' value='false'>false</label>
+        </fieldset>
+        <fieldset>
+          <label><input type='checkbox' value=1>1</label>
+           <label><input type='checkbox' value=2>2</label>
+            <label><input type='checkbox' value=3>3</label>
+             <label><input type='checkbox' value=4>4</label>
+              <label><input type='checkbox' value=5>5</label>
+        </fieldset>
+        <textarea>
+
+        </textarea>
+        <button type='submit' id='submit'>Submit</button>
+    </form>
+  </body>
+  </html>
